@@ -1,0 +1,10 @@
+{
+  "name": "webskan",
+  "version": "0.1.0",
+  "description": "Audit and re-check the website your agent just shipped: Lighthouse, whole-site crawl, accessibility, security headers, broken links, customer journeys. Remote MCP server at https://webskan.com/mcp plus a /webskan:site-check skill.",
+  "author": { "name": "Webskan", "email": "kontakt@webskan.com", "url": "https://webskan.com/developers/" },
+  "homepage": "https://webskan.com/developers/",
+  "repository": "https://github.com/kamilobstawskiagent-ux/webskan-claude-plugin",
+  "license": "MIT",
+  "keywords": ["website", "audit", "lighthouse", "seo", "accessibility", "security", "mcp", "recheck"]
+}

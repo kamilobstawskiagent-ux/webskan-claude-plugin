@@ -1,0 +1,15 @@
+{
+  "name": "webskan",
+  "owner": { "name": "Webskan", "url": "https://webskan.com/developers/" },
+  "description": "Webskan plugins for Claude Code: audit and re-check the website your agent just shipped",
+  "plugins": [
+    {
+      "name": "webskan",
+      "source": "./plugins/webskan",
+      "description": "Webskan MCP server (scan, audit, re-check a live website) plus a site-check skill",
+      "version": "0.1.0",
+      "category": "testing",
+      "tags": ["website", "audit", "lighthouse", "seo", "accessibility", "mcp"]
+    }
+  ]
+}
