@@ -51,7 +51,7 @@ https://webskan.com/developers/
 - `audit_website` / `recheck_website`: 2 per IP per 24 h and 1 per host per 24 h; 1-30 pages; results kept 30 days.
 - Public websites only - no `localhost`, private networks or sites behind a login.
 
-A paid plan for teams with higher limits (key passed as `Authorization: Bearer <key>`) is coming soon.
+Developer plan ($29/month): 30 whole-site audits per 24 h per key and no one-audit-per-host-per-day window. Pass the key as `Authorization: Bearer <key>` (an `http` server with `headers` in your MCP config). Details: https://webskan.com/developers/#teams
 
 ## Layout
 
