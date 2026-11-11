@@ -66,3 +66,9 @@ plugins/webskan/
 ## License
 
 MIT. Contact: kontakt@webskan.com
+
+## In CI
+
+The same audit as a GitHub Action, run after the deploy step and failing the job on high findings:
+[kamilobstawskiagent-ux/webskan-action](https://github.com/kamilobstawskiagent-ux/webskan-action)
+(`uses: kamilobstawskiagent-ux/webskan-action@v1`, inputs `url`, `pages`, `fail-on`, `recheck-of`).
